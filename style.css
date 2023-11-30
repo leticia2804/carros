@@ -1,15 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
-    --orange: #e38826;
-    --cyan: #006970;
-    --dark-cyan: #004241;
-    --gray: #f2f2f2;
-    --transparent-white: rgba(255, 255, 255, 0.75);
+    --orange: #E28625;
+   --cyan: #006971;
+   --dark-cyan: #004140;
+   --gray: #F2F2F2;
+   --transparent-white: rgba(255, 255, 255, 1);
 }
 
 body {
@@ -27,13 +21,14 @@ h2 {
 p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.9375rem;
-    color: var(--transparent-white);
+    color: var(--gray);
     margin-bottom: 1.875rem;
+    line-height: 1.5625rem;
 }
 
 a {
     font-family: 'Lexend Deca', sans-serif;
-    display:block;
+    display: block;
     text-decoration: none;
     border: 2px solid var(--gray);
     width: fit-content;
@@ -41,32 +36,4 @@ a {
     padding: 0.75rem 2.5rem;
     border-radius: 1.5625rem;
     background: var(--gray);
-}
-
-section {
-    padding: 3rem;
-}
-
-.sedans {
-    background: var(--orange);
-}
-
-.sedans {
-    background: var(--orange);
-}
-
-.suvs {
-    background: var(--cyan);
-}
-
-.luxuosos {
-    background: var(--dark-cyan);
-}
-
-.sedans a {
-    color: var(--cyan);
-}
-
-.luxuosos a {
-    color: var(--dark-cyan);
 }
